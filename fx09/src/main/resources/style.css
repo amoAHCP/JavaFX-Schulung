@@ -1,0 +1,5 @@
+#my-button {
+    -fx-background-color: lightblue;
+    -fx-text-fill: red;
+    -fx-background-radius: 16px;
+}
