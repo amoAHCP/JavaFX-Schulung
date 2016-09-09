@@ -13,6 +13,10 @@ import java.io.IOException;
  */
 public class Demo3 extends Application {
 
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage primaryStage) throws IOException {
         Parent root = FXMLLoader.load(this.getClass().getResource("/fxml_example3.fxml"));

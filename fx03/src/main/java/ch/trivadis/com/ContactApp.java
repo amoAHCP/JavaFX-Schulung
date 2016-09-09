@@ -34,6 +34,10 @@ public class ContactApp extends Application {
         personData.add(new Person("Martin", "Mueller"));
     }
 
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/PersonView.fxml"));
